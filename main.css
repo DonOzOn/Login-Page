@@ -1,0 +1,72 @@
+legend {
+    margin-top: 100px;
+}
+
+body {
+    background-image: url(./image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*view hight*/
+    background-attachment: fixed;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h2 {
+    color: green;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+}
+
+@-webkit-keyframes my {
+    0% {
+        color: green;
+    }
+    50% {
+        color: rgb(117, 103, 103);
+    }
+    100% {
+        color: green;
+    }
+}
+
+@-moz-keyframes my {
+    0% {
+        color: green;
+    }
+    50% {
+        color: rgb(117, 103, 103);
+    }
+    100% {
+        color: green;
+    }
+}
+
+@-o-keyframes my {
+    0% {
+        color: green;
+    }
+    50% {
+        color: rgb(117, 103, 103);
+    }
+    100% {
+        color: green;
+    }
+}
+
+@keyframes my {
+    0% {
+        color: green;
+    }
+    50% {
+        color: rgb(117, 103, 103);
+    }
+    100% {
+        color: green;
+    }
+}
